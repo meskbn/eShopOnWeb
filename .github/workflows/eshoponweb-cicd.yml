@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-az400-eshopeonweb-meskbn
   LOCATION: westeurope
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: {{ secrets.SUBS_ID_SKBN }}
+  SUBSCRIPTION-ID: ${{ secrets.SUBS_ID_SKBN }}
   WEBAPP-NAME: az400-webapp-meskbn
 
 
